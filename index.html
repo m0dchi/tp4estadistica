@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gráficos de control</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gráfico de Control de Variables</h1>
+    <label for="selector">Seleccione el caso:</label>
+    <select id="selector">
+        <option value="1">Caso 1 - Fuera de Control</option>
+        <option value="2">Caso 2 - Normal</option>
+        <option value="3">Caso 3 - Tendencia por 2/3 puntos fuera de 2-sigma</option>
+        <option value="4">Caso 4 - Tendencia por 4/5 puntos consecutivos fuera de sigma</option>
+        <option value="5">Caso 5 - 8 puntos consecutivos del mismo lado de línea central</option>
+    </select>
+
+    <button onclick="loadData()">Cargar Datos</button>
+    <div id="alert"></div>
+    <canvas id="myChart" width="400" height="200"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
