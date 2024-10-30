@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;;
+    
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #1e2859;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    flex-grow: 1;
+}
+
+label {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+
+button {
+    background-color: #457b9d !important; 
+} 
+
+.control-panel {
+    margin: 15px;
+    display: flex; /* Activar Flexbox */ /* Colocar los elementos en columna */
+    align-items: center;
+    justify-content: center; /* Centrar elementos horizontalmente */
+    gap: 10px; /* Espaciado entre elementos */
+    margin-bottom: 20px;
+}
+
+select {
+    width: auto;
+   
+    padding: 10px; /* Espaciado interno */
+    font-size: 15px; /* Tamaño de fuente */
+    border: 1px solid #1e2859; /* Color de borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    background-color: #f8f9fa; /* Color de fondo */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el selector */
+}
+
+

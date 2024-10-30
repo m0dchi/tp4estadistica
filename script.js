@@ -30,13 +30,15 @@ function drawChart(media, lsc, lic, valores) {
                 {
                     label: 'Valores',
                     data: data,
-                    borderColor: 'blue',
+                    borderColor: '#457b9d',
+                    backgroundColor: 'white',
                     fill: false
                 },
                 {
                     label: 'Media',
                     data: Array(labels.length).fill(media),
-                    borderColor: 'green',
+                    borderColor: 'grey',
+                    backgroundColor: 'white',
                     borderDash: [5, 5],
                     fill: false
                 },
@@ -44,6 +46,7 @@ function drawChart(media, lsc, lic, valores) {
                     label: 'LSC',
                     data: Array(labels.length).fill(lsc),
                     borderColor: 'red',
+                    backgroundColor: 'white',
                     borderDash: [5, 5],
                     fill: false
                 },
@@ -51,6 +54,7 @@ function drawChart(media, lsc, lic, valores) {
                     label: 'LIC',
                     data: Array(labels.length).fill(lic),
                     borderColor: 'red',
+                    backgroundColor: 'white',
                     borderDash: [5, 5],
                     fill: false
                 }
