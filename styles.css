@@ -31,22 +31,21 @@ button {
 
 .control-panel {
     margin: 15px;
-    display: flex; /* Activar Flexbox */ /* Colocar los elementos en columna */
+    display: flex; 
     align-items: center;
-    justify-content: center; /* Centrar elementos horizontalmente */
-    gap: 10px; /* Espaciado entre elementos */
+    justify-content: center; 
+    gap: 10px;
     margin-bottom: 20px;
 }
 
 select {
-    width: auto;
-   
-    padding: 10px; /* Espaciado interno */
-    font-size: 15px; /* Tamaño de fuente */
-    border: 1px solid #1e2859; /* Color de borde */
-    border-radius: 5px; /* Esquinas redondeadas */
-    background-color: #f8f9fa; /* Color de fondo */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el selector */
+    width: auto;  
+    padding: 10px; 
+    font-size: 15px; 
+    border: 1px solid #1e2859; 
+    border-radius: 5px; 
+    background-color: #f8f9fa;
+    cursor: pointer; 
 }
 
 
